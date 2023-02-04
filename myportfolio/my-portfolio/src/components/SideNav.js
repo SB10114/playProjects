@@ -1,14 +1,16 @@
 import React from "react";
 
 
-const SideNav = (props) => {
+const SideNav = () => {
     return (
         <div className = "sideNav">
             <img src = "images/myLogo.jpg" alt = "Sierra Butler Logo" height = {150} width = {150}></img>
-            <a href = "#section">About</a>
-            <a href = "#section">Projects</a>
-            <a href = "#section">Contact</a>
-            <a href="#section">{props.name}</a>
+            <a href = "/">Home</a>
+            <a href = "/about">About</a>
+            <a href = "/projects">Projects</a>
+            <a href = "/contact">Contact</a>
+            <a href = "/resume">Resume</a>
+            {/* <a href="/name">{props.name}</a> */}
         </div>
  );
 };

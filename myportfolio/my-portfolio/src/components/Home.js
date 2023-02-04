@@ -1,14 +1,13 @@
 import React from "react";
 import SideNav from "./SideNav";
 
-
-const Projects = () => {
+const Home = () => {
     return (
         <div>
             <SideNav />
-            <h1>Projects</h1>
+            <h1>Home page</h1>
         </div>
     );
 };
 
-export default Projects;
+export default Home;
